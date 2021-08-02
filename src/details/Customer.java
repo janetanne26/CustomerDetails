@@ -48,9 +48,9 @@ class Customer {
         this.phno=phno;
     }   
 
-    static class getcustid extends Customer {
+    static class getCustid extends Customer {
 
-        public getcustid() {
+        public getCustid() {
         }
     }
     
