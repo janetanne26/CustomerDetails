@@ -16,37 +16,37 @@ class Customer {
         this.emailid=emailid;
         this.phno=phno;
     }
-    public int getcustid(){
+   public int getCustid(){
         return custid;
     }
-    public void setcustid(int id){
+    public void setCustid(int custid){
         this.custid=custid;
     }
-    public String getname(){
+    public String getName(){
         return name;
     }
-     public void setname(String id){
+     public void setName(String name){
         this.name=name;
     }
    
-    public String getpassword(){
+    public String getPassword(){
         return password;
     }
-     public void setpassword(String id){
+     public void setPassword(String password){
        this.password=password;
     }
-      public String getemailid(){
+      public String getEmailid(){
         return emailid;
     }
-     public void setemailid(String id){
+     public void setEmailid(String emailid){
         this.emailid=emailid;
     }
-    public String getphno(){
+    public String getPhno(){
         return phno;
     }
-     public void setphno(String id){
+     public void setPhno(String phno){
         this.phno=phno;
-    }
+    }   
 
     static class getcustid extends Customer {
 
